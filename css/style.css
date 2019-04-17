@@ -1,0 +1,103 @@
+* {
+  color: white;
+  font-family: 'Abril Fatface', cursive;
+}
+h2 {
+  line-height: 1.66;
+  margin: 0;
+  padding: 0;
+  font-weight: 900;
+  color: white;
+  font-size: 24px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 40px;
+}
+h2:hover {
+  opacity:0.5;
+}
+body {
+  font-size: 14px;
+  line-height: 1.8;
+  color: #222;
+  font-weight: 400;
+  background-image: url("../image/signup-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  background-position: center center;
+}
+.container {
+  width: 660px;
+  position: relative;
+  margin: 0 auto;
+}
+.form-input {
+  font-family: 'Lobster', cursive;
+  cursor: pointer;
+  transition: 0.6s;
+  width: 100%;
+  border: 1px solid #ebebeb;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  padding: 17px 20px;
+  box-sizing: border-box;
+  font-size: 19px;
+  font-weight: 500;
+  color: #222;
+  opacity: 0.9;
+}
+.form-input:hover {
+  opacity: 1;
+  transition:0.4s;
+  -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.58);
+  box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.58);
+}
+.form-input:active {
+  color:white;
+}
+.form-submit {
+  font-family: 'Gruppo', cursive;
+  cursor: pointer;
+  margin-top: 15px;
+  width: 100%;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  padding: 17px 20px;
+  box-sizing: border-box;
+  font-size: 22px;
+  font-weight: 700;
+  color: #fff;
+  text-transform: uppercase;
+  border: none;
+  transition: 0.5s;
+  background: rgb(120, 28, 162);
+  background: linear-gradient(90deg, rgba(120, 28, 162, 1) 0%, rgba(101, 204, 224, 1) 47%, rgba(120, 28, 162, 1) 100%);
+}
+.form-submit:hover {
+  -webkit-box-shadow: 5px 5px 10px 5px rgba(0,0,0,0.58);
+  box-shadow: 5px 5px 15px 10px rgba(0,0,0,0.58);
+  transition:0.3s;
+  background-position:800px;
+
+}
+.form-input1 {
+  font-family: 'Lobster', cursive;
+  cursor: pointer;
+  transition: 0.6s;
+  width: 40%;
+  border: 1px solid #ebebeb;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  padding: 17px 20px;
+  box-sizing: border-box;
+  font-size: 19px;
+  font-weight: 500;
+  color: #222;
+  opacity: 0.9;
+}
